@@ -1,0 +1,5 @@
+Method,PSNR (dB),SSIM,MSE,Runtime (ms)
+Original Clean Image (Reference),100.0,1.0,0.0,0.0
+Noisy (Salt & Pepper Noise (amount=5.0%)),18.26,0.4497,969.96,0.0
+Median Filter (k=5x5),25.11,0.7171,200.5,5.55
+"Gaussian Filter (k=5x5, σ=1.2)",25.01,0.6784,205.25,0.52

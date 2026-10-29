@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# PyTorch / Ultralytics model weights
+*.pt
+*.pth
+*.onnx
+
+# Testing & Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large raw user video files (keep sample instructions intact)
+# Note: user data can be shared via Google Drive link for academic submission
+*.mp4
+*.avi
+*.mov
+# Allow sample inputs in data/inputs
+!data/inputs/user_mountain_village.jpg
+!data/inputs/user_video.mp4
+!data/inputs/.gitkeep
+
